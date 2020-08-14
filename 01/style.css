@@ -1,0 +1,206 @@
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+  
+}
+
+nav ul li{
+    cursor: pointer;
+    flex: auto;
+    padding: 5px;;
+    text-align: center;
+}
+
+nav ul li:hover{
+    background-color: burlywood;
+}
+
+nav ul.social{
+    color:transparent;
+}
+
+li.fb{
+    background: url('./images/fb.png') no-repeat center;
+    background-size: 40%;
+    
+}
+
+li.tw{
+    background: url('./images/tw.png') no-repeat center;
+    background-size: 60%;
+}
+
+
+
+
+.mycontainer{
+    border: 4px solid black;
+    display: flex;
+    height: 800px;
+   align-items: flex-start;
+
+}
+
+.myflexitem{
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box1{
+    background-color: antiquewhite;
+  align-self: flex-start;
+}
+
+.box2{
+    background-color: grey;
+    align-self: center;
+  
+}
+
+.box3{
+    background-color: pink;
+    align-self: stretch;
+}
+
+.box4{
+    background-color: blue;
+    align-self: flex-end;
+}
+
+
+.box5{
+    background-color: plum;
+
+}
+
+.box6{
+    background-color: goldenrod;
+}
+
+.box7{
+    background-color: lightcoral;
+
+}
+
+.box8{
+    background-color: lightgreen;
+}
+
+.box9{
+    background-color: violet;
+   
+}
+ .content {
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .flex-header{
+    background-color: thistle;
+
+ }
+
+ .flex-main{
+     display: flex;
+    
+ }
+
+ .flex-left-sidebar{
+    background-color: lightpink;
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 6rem;*/
+    flex: 1 1 6rem;
+
+ }
+
+ .flex-right-sidebar{
+    background-color: lightpink;
+    flex: 1 1 6rem;
+
+ }
+
+ .flex-article{
+    background-color: lightseagreen;
+    flex:3 3; 
+ }
+
+
+ .flex-footer{
+    background-color: thistle;
+
+ }
+
+
+
+
+
+@media all and (max-width:700px){
+
+
+    nav { 
+        flex-direction: column;
+    }
+    
+    li.fb{
+        background-size: 5%;
+        
+    }
+    li.tw{
+        background-size: 5%;
+    }
+    nav ul {
+        flex-direction: column;
+       }
+}
+
+
+@media all and (max-width:450px){
+
+
+    nav { 
+        flex-direction: column;
+    }
+    
+    li.fb{
+        background-size: 7%;
+        
+    }
+    li.tw{
+        background-size: 7%;
+    }
+    nav ul {
+        flex-direction: column;
+       }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
