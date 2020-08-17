@@ -100,9 +100,19 @@ li.tw{
     background-color: violet;
    
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+
  .content {
      display: flex;
      flex-direction: column;
+     flex:1 ;
      
  }
 
@@ -113,6 +123,7 @@ li.tw{
 
  .flex-main{
      display: flex;
+     flex:1;
     
  }
 
@@ -163,6 +174,12 @@ li.tw{
     nav ul {
         flex-direction: column;
        }
+
+    .flex-main{
+        flex-direction: column;
+    }   
+
+
 }
 
 
